@@ -27,7 +27,7 @@ function startBot() {
             host: CONFIG.host,
             port: CONFIG.port,
             username: CONFIG.username,
-            version: false,
+            version: "1.20.6",
             checkTimeoutInterval: 30 * 1000,
             hideErrors: false
         });
